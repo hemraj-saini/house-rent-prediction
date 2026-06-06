@@ -1,4 +1,4 @@
-import streamlit as st
+'''import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
@@ -294,5 +294,10 @@ h1 {
 }
 
 </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True)'''
+
+import streamlit as st
+
+st.title("Test App")
+st.write("App Started")
 
