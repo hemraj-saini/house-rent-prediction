@@ -4,7 +4,7 @@ A Machine Learning-based web application that predicts house rent using property
 
 ## 🚀 Live Demo
 
-(Add your Streamlit app link here after deployment)
+[🚀 Launch Application](https://house-rent-prediction-1st.streamlit.app/)
 
 ## 📊 Project Overview
 
