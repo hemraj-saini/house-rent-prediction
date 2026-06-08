@@ -349,7 +349,7 @@ elif page == "📊 Dashboard":
         )
         ax.ticklabel_format(style='plain', axis='y')
 
-st.pyplot(fig, use_container_width=True)
+        st.pyplot(fig, use_container_width=True)
 
 
 
