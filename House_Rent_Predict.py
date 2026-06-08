@@ -375,7 +375,8 @@ st.sidebar.caption("Version 1.0")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(
-    "[🔗 GitHub Repository](https://github.com/yourusername/house-rent-prediction)"
+    '<a href="https://github.com/hemraj-saini/house-rent-prediction" target="_blank">🔗 GitHub Repository</a>',
+    unsafe_allow_html=True
 )
 
 st.markdown("""
