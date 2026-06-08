@@ -35,7 +35,8 @@ This project predicts house rent prices using a Gradient Boosting Regressor mode
 * Scikit-Learn
 * Streamlit
 * Joblib
-
+* Matplotlib
+  
 ## 🤖 Machine Learning Workflow
 
 1. Exploratory Data Analysis (EDA)
