@@ -354,24 +354,21 @@ elif page == "📊 Dashboard":
 
 
                 
-st.sidebar.title("📌 Project Information")
+st.sidebar.markdown("---")
 
-st.sidebar.success("Machine Learning Project")
+st.sidebar.subheader("📌 Project Information")
 
-st.sidebar.write("Model")
-st.sidebar.info("GradientBoostingRegressor")
+st.sidebar.info("""
+**🎯 Target:** House Rent Prediction
 
-st.sidebar.write("CV Score")
-st.sidebar.info("0.8286")
+**🤖 Model:** GradientBoostingRegressor
 
-st.sidebar.write("Target")
-st.sidebar.info("House Rent")
+**📈 R² Score:** 0.83
 
-st.sidebar.write("Features")
-st.sidebar.info("14 Features")
+**📊 Dataset:** 4746 Listings
 
-st.sidebar.write("Developer")
-st.sidebar.info("Hemraj Saini")
+**👨‍💻 Developer:** Hemraj Saini
+""")
 
 st.markdown("""
 <style>
