@@ -358,17 +358,25 @@ st.sidebar.markdown("---")
 
 st.sidebar.subheader("📌 Project Information")
 
-st.sidebar.info("""
-**🎯 Target:** House Rent Prediction
+st.sidebar.success("""
+🎯 **Target:** House Rent Prediction
 
-**🤖 Model:** GradientBoostingRegressor
+🤖 **Model:** GradientBoostingRegressor
 
-**📈 R² Score:** 0.83
+📈 **R² Score:** 0.83
 
-**📊 Dataset:** 4746 Listings
+📊 **Dataset:** 4746 Listings
 
-**👨‍💻 Developer:** Hemraj Saini
+👨‍💻 **Developer:** Hemraj Saini
 """)
+
+st.sidebar.markdown("---")
+st.sidebar.caption("Version 1.0")
+
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    "[🔗 GitHub Repository](https://github.com/yourusername/house-rent-prediction)"
+)
 
 st.markdown("""
 <style>
@@ -378,16 +386,22 @@ st.markdown("""
 }
 
 h1 {
-    text-align:center;
+    text-align: center;
+    color: #1f77b4;
 }
 
-.stButton>button {
-    width:100%;
-    height:3rem;
-    font-size:20px;
-    font-weight:bold;
+.stButton > button {
+    width: 100%;
+    height: 3rem;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+[data-testid="stMetricValue"] {
+    font-size: 28px;
+    font-weight: bold;
 }
 
 </style>
 """, unsafe_allow_html=True)
-
